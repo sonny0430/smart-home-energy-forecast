@@ -8,5 +8,17 @@ data/raw/
 data/processed/train_*
 data/processed/test_processed.csv
 data/processed/train_processed.csv
+data/processed/X_train_tabular.npy
+data/processed/X_test_tabular.npy
+data/processed/y_train.npy
+data/processed/y_test.npy
 
 *.md
+
+
+git rm --cached data/processed/train_processed.csv
+git rm --cached data/processed/test_processed.csv
+git rm --cached data/processed/X_train_tabular.npy
+git rm --cached data/processed/X_test_tabular.npy
+git rm --cached data/processed/y_train.npy
+git rm --cached data/processed/y_test.npy
