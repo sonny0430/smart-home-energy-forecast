@@ -1,6 +1,9 @@
 pandas
 numpy
 scikit-learn
+torch
+mlflow
+matplotlib
 joblib
 
 fastapi
@@ -10,3 +13,6 @@ sqlalchemy
 psycopg2-binary
 langchain
 langchain-core
+
+pytest
+httpx
